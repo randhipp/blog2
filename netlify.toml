@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://affectionate-franklin-bf7b54.netlify.com/*"
+  to = "https://blog.jombangdigital.net/:splat"
+  status = 301
+  force = true #COM
