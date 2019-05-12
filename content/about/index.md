@@ -1,21 +1,19 @@
 +++
-date = "2019-05-12T08:13:14+07:00"
+date = "2019-05-12T20:29:37+07:00"
 title = "About me"
 +++
 
-An sincerity so extremity he additions. Her yet **there truth merit**. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution law.
-
-Received overcame oh sensible so at an. Formed do change merely to county it. **Am separate contempt** domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.
+Halo, anda bisa panggil saya Randhi, saya lahir di era 90'an. Generasi terakhir peralihan antara no gadget dan full gadget, hehe. Lahir dan besar di Surabaya, tapi sekarang hidup dan tinggal di Jombang, bersama keluarga kecil saya. 
 
 ![This is me][1]
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+Saya sangat menyukai teknologi terbaru, selalu ingin tahu **how things work**. Saat ini bekerja sebagai **IT System Engineer** di salah satu supermarket bahan bangunan modern di Jombang. Disini saya belajar otodidak untuk menjadi backend dan frontend developer.
 
-#### Education
+#### Current Passion
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+* Laravel Framework, VueJS, ReactNative, Hugo SSG.
+* Git Workflow, Testing, Auto Deploy.
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then
+Sebelumnya saya juga pernah bekerja sebagai IT Network Engineer, dimana saya harus build dan maintenance Server yang di host sendiri di kantor.
 
 [1]: /img/about.jpg

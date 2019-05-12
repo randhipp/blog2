@@ -1,7 +1,7 @@
 +++
 draft = false
-image = ""
-showonlyimage = false
+image = "img/portfolio/paper-presentation.jpg"
+showonlyimage = true
 date = "2019-05-12T09:30:31+07:00"
 title = "Integrasi Laravel dengan Telegram"
 writer = "Randhi P. Putra"
