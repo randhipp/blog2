@@ -3,7 +3,7 @@ title = "JD.net"
 theme = "hugo-nederburg-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "jombangdigital.disqus.com"
+disqusShortname = "jombangdigital"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 preserveTaxonomyNames = true
