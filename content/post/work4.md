@@ -2,32 +2,57 @@
 draft = false
 image = ""
 showonlyimage = false
-date = "2017-11-21T19:50:47+05:30"
-title = "[Part 1] Using Telegram Widget on Laravel Auth Login"
+date = "2019-05-12T09:30:31+07:00"
+title = "Integrasi Laravel dengan Telegram"
 writer = "Randhi P. Putra"
 categories = [ "code" ]
 weight = 4
 +++
 
-Hari ini saya ingin mencoba menulis kembali setelah lama berhenti. Karena sedang giat belajar Laravel, tidak ada salahnya saya tuliskan disini supaya tidak lupa. Saya sedang membuat project experiment, Sistem Informasi Rental Kendaraan yang maunya terintegrasi dengan Telegram, baik dari Notification ataupun Login.
+Hari ini saya ingin mencoba menulis blog kembali setelah lama tidak aktif di dunia blog. Belakangan ini sedang belajar Laravel, jadi tidak ada salahnya saya tuliskan disini supaya tidak lupa. Tulisan ini saya buat berseri ya!
 <!--more-->
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+Saya sedang membuat project experiment, sebuah **Sistem Informasi Rental Kendaraan** yang maunya saya bisa terintegrasi dengan Telegram, baik dari Notification ataupun Login.
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+Nah yang sudah saya capai saat ini adalah :
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+1. Integrasi Telegram Widget Login - [Part 1][1]
+2. Integrasi Telegram Notification - [Part 2][2]
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+Disini kenapa saya mau integrasikan Laravel Project dengan telegram karena :
 
-## Header Level 2
+- 'Masih' Free & Open Source
+- API boleh digunakan tanpa daftar dan request by email. 
+- Whatsapp harus request by email, dan apabila tidak disetujui opsi lain menggunakan 3rd-party API yang berbayar.
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+>Our API is open, and we welcome developers to create their own Telegram apps. We also have a Bot API, a platform for developers that allows anyone to easily build specialized tools for Telegram, integrate any services, and even accept payments from users around the world. ~ Telegram FAQ
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+## Telegram Login Widget
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+Telegram login juga memudahkan proses input data di form register, karena data callback yang diberikan adalah :
+
+- Telegram ID & username
+- first & last name
+- auth_time
+- avatar
+- token
+
+Jadi apabila user baru mencoba Login, maka akan langsung diarahkan ke form register yang sudah terisi namanya.
+
+
+
+
+![4]
+
+Validasi lebih aman karena ada hash token, AuthTime, dan Secret Code yang digenerate dari Bot Token.
+
+![3]
+
+>Bonus : Telegram ID juga bisa langsung tersimpan di database, nantinya berfungsi untuk send notification
+
+
+[1]: ../work1
+[2]: ../work2
+[3]: https://core.telegram.org/file/811140314/17c1/xf4ULBL5tmE.58438/07ff5b2958ed0e7e36 "login-confirmation"
+[4]: /img/upload/contoh-login.png
