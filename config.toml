@@ -77,7 +77,7 @@ paginate = 5 #frontpage pagination
     instagram     = "https://instagram.com/randhipp"
     github        = "https://github.com/randhipp"
     gitlab        = "https://gitlab.com/randhi.pp"
-    telegram      = "https://t.me/randhi.pp"
+    telegram      = "https://t.me/jombangdigital"
 	rss           = true
 
 # Add a writer, then use it in the markdown front matter like this: writer = "Randhi P. Putra"
@@ -98,5 +98,5 @@ paginate = 5 #frontpage pagination
     instagram     = "https://instagram.com/randhipp"
     github        = "https://github.com/randhipp"
     gitlab        = "https://gitlab.com/randhi.pp"
-    telegram      = "https://t.me/randhi.pp"
+    telegram      = "https://t.me/jombangdigital"
  #   pinterest     = "full profile url in pinterest"
