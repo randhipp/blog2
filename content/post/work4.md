@@ -51,8 +51,15 @@ Validasi lebih aman karena ada hash token, AuthTime, dan Secret Code yang digene
 
 >Bonus : Telegram ID juga bisa langsung tersimpan di database, nantinya berfungsi untuk send notification
 
+![5]
+
+Contoh diatas adalah notifikasi yang dikirimkan otomatis oleh bot telegram kepada user yang login menggunakan Telegram Widget.
+
+Bagaimana? tertarik untuk implementasi di website anda? :D
+
 
 [1]: ../work1
 [2]: ../work2
 [3]: https://core.telegram.org/file/811140314/17c1/xf4ULBL5tmE.58438/07ff5b2958ed0e7e36 "login-confirmation"
 [4]: /img/upload/contoh-login.png
+[5]: /img/upload/Notification-success.png

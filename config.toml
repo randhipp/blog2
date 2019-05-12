@@ -3,7 +3,7 @@ title = "JD.net"
 theme = "hugo-nederburg-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "jombangdigital"
+disqusShortname = "jombangdigital.disqus.com"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 preserveTaxonomyNames = true
@@ -73,6 +73,8 @@ paginate = 5 #frontpage pagination
 	twitter       = "https://twitter.com/ranrandhi"
     instagram     = "https://instagram.com/randhipp"
     github        = "https://github.com/randhipp"
+    gitlab        = "https://gitlab.com/randhi.pp"
+    telegram      = "https://t.me/randhi.pp"
 	rss           = true
 
 # Add a writer, then use it in the markdown front matter like this: writer = "Randhi P. Putra"
@@ -92,4 +94,6 @@ paginate = 5 #frontpage pagination
  #  stackoverflow = "full profile url in stackoverflow"
     instagram     = "https://instagram.com/randhipp"
     github        = "https://github.com/randhipp"
+    gitlab        = "https://gitlab.com/randhi.pp"
+    telegram      = "https://t.me/randhi.pp"
  #   pinterest     = "full profile url in pinterest"
