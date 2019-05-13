@@ -90,7 +90,12 @@ Anda bisa create user baru dengan menggunakan seeder
 ```php
 $ php artisan make:seed create_admin_user
 ```
-edit <code>create_admin_user</code> di database/seeds :
+
+Edit <code>create_admin_user</code> di database/seeds :
+
+NB: Chat [@jsondumpbot](https://t.me/jsondumpbot) untuk  mendapatkan telegram id. Ganti telegram id dengan id telegram anda. 
+
+
 ```php
 <?php
 
@@ -117,9 +122,10 @@ class create_admin_user extends Seeder
 }
 
 ```
-ganti telegram id dengan id telegram anda. Klik [disini](../telegram-id) untuk tahu cara mendapatkan telegram id.
 
-tambahkan class seeder di database seeder :
+
+
+Tambahkan class seeder di database seeder :
 ```php
 <?php
 
@@ -150,15 +156,13 @@ Anda sudah bisa login dengan username: <code>admin@admin.com</code> dan pasw: <c
 
 ![bot-father](/img/upload/bot-maker.png "botfather")
 
-Mari kita buat dulu bot di Telegram 
+Mari kita buat dulu bot di Telegram
+
 - chat [@botfather](https://t.me/botfather) dan ketik <code>/newbot</code>
 - beri nama misal: <code>JDigital_bot</code>
 - simpan token yg diberikan dari botfather.
 - contoh token formatnya seperti ini <code>715028267:AAGkzm2y-HFiZrsEu4IKEhVq2Ls-0GnfprI</code>
-
-####Set Domain di bot yang baru anda buat
-
-Jangan lupa berikan domain di bot yang baru anda buat, atau widget tidak akan bisa muncul.
+- Set Domain di bot yang baru anda buat, jangan lupa berikan domain di bot yang baru anda buat, atau widget tidak akan bisa muncul.
 
 - <code>/setdomain</code> dan balas dengan 127.0.0.1
 
