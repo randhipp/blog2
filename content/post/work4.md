@@ -7,6 +7,7 @@ title = "Integrasi Laravel dengan Telegram"
 writer = "Randhi P. Putra"
 categories = [ "code" ]
 weight = 4
+tags = ["laravel","telegram","php","backend"]
 +++
 
 Hari ini saya ingin mencoba menulis blog kembali setelah lama tidak aktif di dunia blog. Belakangan ini sedang belajar Laravel, jadi tidak ada salahnya saya tuliskan disini supaya tidak lupa. Tulisan ini saya buat berseri ya!
