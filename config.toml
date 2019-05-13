@@ -5,7 +5,7 @@ languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "jombangdigital"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-78434435-1"
 preserveTaxonomyNames = true
 paginate = 5 #frontpage pagination
 
