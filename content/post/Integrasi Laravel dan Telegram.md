@@ -17,7 +17,7 @@ Saya sedang membuat project experiment, sebuah **Sistem Informasi Rental Kendara
 
 Nah yang sudah saya capai saat ini adalah :
 
-1. Integrasi Telegram Widget Login - [Part 1][1]
+1. Laravel make:auth + Telegram Widget Login - [Part 1][1]
 2. Integrasi Telegram Notification - [Part 2][2]
 
 Disini kenapa saya mau integrasikan Laravel Project dengan telegram karena :
@@ -59,8 +59,8 @@ Contoh diatas adalah notifikasi yang dikirimkan otomatis oleh bot telegram kepad
 Bagaimana? tertarik untuk implementasi di website anda? :D
 
 
-[1]: ../work1
-[2]: ../work2
+[1]: ../integrasi-laravel-telegram-login
+[2]: ../404
 [3]: https://core.telegram.org/file/811140314/17c1/xf4ULBL5tmE.58438/07ff5b2958ed0e7e36 "login-confirmation"
 [4]: /img/upload/contoh-login.png
 [5]: /img/upload/Notification-success.png
